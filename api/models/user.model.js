@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar:{
         type:String,
-        default:"https://media.istockphoto.com/id/1337144146/fr/vectoriel/vecteur-dic%C3%B4ne-de-profil-davatar-par-d%C3%A9faut.jpg?s=1024x1024&w=is&k=20&c=XM2Gji0NqwLiwD-T2ZUXBS409qldkRUSth7kj8aObn8="
+        default:"https://i.pinimg.com/736x/0d/64/98/0d64989794b1a4c9d89bff571d3d5842.jpg"
     },
 },{timestamps:true})
 
