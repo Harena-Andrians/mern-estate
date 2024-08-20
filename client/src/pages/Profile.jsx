@@ -44,16 +44,17 @@ console.log(uploadFileError);
     )
   }
   return (
-    <div className="p-3 max-w-lg mx-auto">
+    <div className="p-3 max-w-lg mx-auto" >
       <h1 className="text-3xl font-semibold text-center my-7">Profile</h1>
       <form className="flex flex-col gap-4">
         <input
           ref={fileRef}
           onChange={(e)=>setFile(e.target.files[0])}
           type="file"
-          name=""
-          id=""
+          name="file"
+          id="file"
           hidden
+          accept="image/*"
         />
         <img
           onClick={()=> fileRef.current.click()}
